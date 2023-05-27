@@ -1,0 +1,70 @@
+.input-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.input-wrapper label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.input-wrapper input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #f1f5f9;
+  background-color: #f1f5f9;
+  caret-color: #ec4899;
+}
+
+.input-wrapper input:focus {
+  border: 2px solid #475569;
+  background-color: white;
+}
+
+.input-wrapper.input-password input {
+  padding-right: 50px;
+}
+
+.password-icon {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 920px) {
+  .input-wrapper label {
+    font-size: 18px;
+  }
+  .input-wrapper input {
+    padding: 16px;
+    font-size: 20px;
+  }
+  .password-icon {
+    bottom: 14px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .input-wrapper label {
+    font-size: 12px;
+  }
+  .input-wrapper input {
+    padding: 14px;
+    font-size: 16px;
+  }
+  .password-icon {
+    bottom: 14px;
+    right: 20px;
+  }
+}

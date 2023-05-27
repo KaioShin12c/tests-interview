@@ -1,0 +1,131 @@
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0 20px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  box-sizing: border-box;
+}
+
+.login img {
+  height: 100%;
+}
+
+.login-form-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  min-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.login-sub-title {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+.create-account {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.forgot-password {
+  display: block;
+  text-align: center;
+  margin: 5px 0 70px 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.google-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.sign-in-btn.button {
+  margin-bottom: 24px;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 920px) {
+  .login {
+    display: block;
+    padding: 140px 0;
+  }
+
+  .login-title {
+    font-size: 46px;
+  }
+
+  .login-sub-title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .login img {
+    display: none;
+  }
+
+  .login-form-container {
+    padding: 0 80px;
+  }
+
+  .login-form-wrapper {
+    min-width: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .login {
+    display: block;
+    padding: 80px 0;
+  }
+
+  .login-title {
+    font-size: 28px;
+  }
+
+  .login-sub-title {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .login img {
+    display: none;
+  }
+
+  .login-form-container {
+    padding: 0 20px;
+  }
+
+  .login-form-wrapper {
+    min-width: auto;
+  }
+
+  .forgot-password {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  button.button {
+    font-size: 14px;
+    height: 48px;
+  }
+}
