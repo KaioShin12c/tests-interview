@@ -1,0 +1,22 @@
+.hero-section {
+  background-color: #29b363;
+  height: 150px;
+  min-height: 150px;
+  display: grid;
+  place-items: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
+}
+.sub-title {
+  color: white;
+  font-size: 12px;
+}

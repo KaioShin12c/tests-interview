@@ -1,0 +1,41 @@
+.joke {
+  background-color: #fcfcfc;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 50px 20px 70px 20px;
+}
+
+.joke-content {
+  text-align: center;
+}
+
+.divider {
+  margin: 50px 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f5f0f0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .divider {
+    margin: 30px 0;
+  }
+}
+
+.content {
+  margin-bottom: 10px;
+  color: #737373;
+  max-width: 1000px;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}

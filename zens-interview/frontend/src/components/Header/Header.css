@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  min-height: 60px;
+  background-color: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.user-label {
+  font-style: italic;
+  font-size: 16px;
+  color: gray;
+}
+
+.username {
+  font-size: 14px;
+  color: black;
+  text-align: right;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.user-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* img {
+  width: 100%;
+  height: 100%;
+} */
