@@ -1,0 +1,18 @@
+li.active {
+  @apply text-primary-color font-bold relative overflow-hidden;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  background-color: #22ac66;
+  top: 0;
+  bottom: 0;
+  left: -30px;
+  border-radius: 10px;
+}
+
+.active path {
+  stroke: #22ac66;
+}

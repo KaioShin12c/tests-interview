@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("@/assets/styles/fonts/SegoeUI/SegoeUI-Italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
