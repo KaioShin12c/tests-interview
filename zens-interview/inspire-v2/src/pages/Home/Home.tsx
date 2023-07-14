@@ -119,7 +119,7 @@ const Home = () => {
                       alt="image1"
                       className="w-full h-[280px] object-cover object-top rounded-xl"
                     />
-                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-2 2xl:p-4">
+                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-3 2xl:p-4">
                       <div>
                         <p className="leading-none text-sm 2xl:text-21px text-third-text line-clamp-2">
                           Pre-Course Questionnaire
@@ -138,8 +138,8 @@ const Home = () => {
                       alt="image2"
                       className="w-full h-[280px] object-cover object-top rounded-xl"
                     />
-                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-2 2xl:p-4">
-                      <div className="flex mb-4">
+                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-3 2xl:p-4">
+                      <div className="flex mb-4 gap-2">
                         <p className="leading-none text-sm 2xl:text-21px text-third-text line-clamp-2">
                           What is translation in academic research laboratories
                         </p>
@@ -170,8 +170,8 @@ const Home = () => {
                       alt="image3"
                       className="w-full h-[280px] object-cover object-top rounded-xl"
                     />
-                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-2 2xl:p-4">
-                      <div className="flex mb-4">
+                    <div className="absolute bg-white bottom-0 left-0 right-0 shadow-regular shadow-gray-300 rounded-xl p-3 2xl:p-4">
+                      <div className="flex mb-4 gap-2">
                         <p className="leading-none text-sm 2xl:text-21px text-third-text line-clamp-2">
                           What is translation in academic research laboratories
                         </p>
