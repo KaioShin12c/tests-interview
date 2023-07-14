@@ -27,11 +27,11 @@ const Login = () => {
             className="w-full px-10 lg:px-14 xl:px-20 2xl:px-24 2xl:max-w-[800px]"
             onSubmit={onSubmitClick}
           >
-            <h2 className="text-4xl xl:text-6xl 2xl:text-[78px] text-[#393838] text-center xl:mb-3 2xl:mb-6">
+            <h2 className="text-4xl xl:text-6xl 2xl:text-[78px] text-black-color text-center xl:mb-3 2xl:mb-6">
               Welcome
             </h2>
             <div className="mb-4 2xl:mb-9">
-              <label className="block text-[#6D6B6B] mb-2 2xl:mb-3 xl:text-2xl 2xl:text-29px">
+              <label className="block text-primary-text mb-2 2xl:mb-3 xl:text-2xl 2xl:text-29px">
                 Username
               </label>
               <Input
@@ -42,7 +42,7 @@ const Login = () => {
               />
             </div>
             <div className="mb-12 2xl:mb-[87px]">
-              <label className="block text-[#6D6B6B] mb-2 2xl:mb-3 xl:text-2xl 2xl:text-29px">
+              <label className="block text-primary-text mb-2 2xl:mb-3 xl:text-2xl 2xl:text-29px">
                 Password
               </label>
               <Input

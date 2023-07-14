@@ -8,6 +8,10 @@ export default {
         "secondary-color": "#E7F6EE",
         "third-color": "#F8FFFB",
         purple: "#799BFE",
+        "black-color": "#393838",
+        "primary-text": "#6D6B6B",
+        "secondary-text": "#605E5E",
+        "third-text": "#424143",
       },
       boxShadow: {
         "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
