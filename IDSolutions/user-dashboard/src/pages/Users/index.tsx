@@ -1,7 +1,7 @@
-import React from "react";
+import { Divider } from "antd";
+
 import UsersList from "../../features/users/users-list";
 import UsersSearch from "../../features/users/users-search";
-import { Divider } from "antd";
 
 const UsersPage = () => {
   return (
